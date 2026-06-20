@@ -912,7 +912,7 @@ importers:
     dependencies:
       '@angular/core':
         specifier: ^22.0.0-next
-        version: 22.0.0-rc.1(@angular/compiler@packages+compiler)
+        version: 22.0.2(@angular/compiler@packages+compiler)
       reflect-metadata:
         specifier: ^0.2.0
         version: 0.2.2
@@ -1639,11 +1639,11 @@ packages:
     engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     hasBin: true
 
-  '@angular/core@22.0.0-rc.1':
-    resolution: {integrity: sha512-mwiS07LAqZfpW5lmnTnGEGcZM0f9Rsp2YfQKmilnLUt2NTDTHLEwJmVBIkUatYkRLNhFiNbNO3gXynQA8kysSA==}
-    engines: {node: ^22.22.0 || ^24.13.1 || >=26.0.0}
+  '@angular/core@22.0.2':
+    resolution: {integrity: sha512-YMs6OZNeXh4tg67ePwSRN426WYvjqGdjxEwLrdOONKAruOmJAzW/Tqe328k/4SHfdbJTR87GPpRi5FzVP43DRA==}
+    engines: {node: ^22.22.3 || ^24.15.0 || >=26.0.0}
     peerDependencies:
-      '@angular/compiler': 22.0.0-rc.1
+      '@angular/compiler': 22.0.2
     peerDependenciesMeta:
       '@angular/compiler':
         optional: true
@@ -9555,8 +9555,8 @@ packages:
   react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  react-is@19.2.6:
-    resolution: {integrity: sha512-XjBR15BhXuylgWGuslhDKqlSayuqvqBX91BP8pauG8kd1zY8kotkNWbXksTCNRarse4kuGbe2kIY05ARtwNIvw==}
+  react-is@19.2.7:
+    resolution: {integrity: sha512-kZFnouyVv7eP/Phmrlo9FK+zcAdriZJvzxXHF1Sl1P377WSGe2G/JxVolhTrB/jeV47lKImhNUsijjHAAbcl/A==}
 
   read-cache@1.0.0:
     resolution: {integrity: sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA==}
@@ -11813,7 +11813,7 @@ snapshots:
       - chokidar
       - supports-color
 
-  '@angular/core@22.0.0-rc.1(@angular/compiler@packages+compiler)':
+  '@angular/core@22.0.2(@angular/compiler@packages+compiler)':
     dependencies:
       rxjs: 7.8.2
       tslib: 2.8.1
@@ -20808,7 +20808,7 @@ snapshots:
       '@jest/schemas': 30.4.1
       ansi-styles: 5.2.0
       react-is-18: react-is@18.3.1
-      react-is-19: react-is@19.2.6
+      react-is-19: react-is@19.2.7
 
   proc-log@6.1.0: {}
 
@@ -20990,7 +20990,7 @@ snapshots:
 
   react-is@18.3.1: {}
 
-  react-is@19.2.6: {}
+  react-is@19.2.7: {}
 
   read-cache@1.0.0:
     dependencies:
